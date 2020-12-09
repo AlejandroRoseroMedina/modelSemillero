@@ -1,10 +1,5 @@
 package com.clearminds.arm.dtos;
 
-import java.sql.SQLException;
-
-import com.clearminds.arm.excepciones.BDDException;
-import com.clearminds.arm.servicios.ServicioEstudiante;
-
 public class Estudiante {
 
 	private String nombre;
@@ -43,6 +38,8 @@ public class Estudiante {
 	public void setId(int id) {
 		this.id = id;
 	}
+	
+	
 	
 	
 	
